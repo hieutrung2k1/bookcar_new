@@ -1,0 +1,133 @@
+/* Form Login */
+.form{
+    width: 340px;
+    height:430px;
+    background-color: rgb(99 235 119);
+    text-align: center;
+    padding: 36px 24px;
+    box-shadow: 0 4px 4px 0 rgba(51, 62, 73, 0.1);
+    margin: 0 24px;
+    border-radius: 4px;
+}
+.form_login{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+.heading{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    margin-top: -3px;
+}
+.desc{
+    font-size: 1.5rem;
+    line-height: 0.3rem;
+    margin-top: 12px;
+    color: #636d63;
+    font-weight: 300;
+    color: black;
+}
+.form-lable{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 0.3rem;
+    padding: 9px 0 5px;
+    margin-top: 9px;
+    float: left;
+}
+.form-control{
+    border: solid 1px #b3b3b3;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px 8px;
+    height: 40px;
+    margin-top: 9px;
+}
+.form-submit{
+    width: 100%;
+    height: 40px;
+    background-color: #1dbfaf;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+    color: #fff;
+    font-weight: 700;
+}
+.form-submit:hover{
+    cursor: pointer;
+}
+.form-register{
+    float: left;
+    display: flex;
+    margin-top: 8px;
+}
+.register-question{
+    font-size: 0.8rem;
+}
+.form_login-register{
+    outline: none;
+    border: none;
+    background-color: rgb(99 235 119);
+    margin: -10px 0 0 3px;
+    color: rgb(54, 126, 235);
+
+}
+.form_login-register:hover{
+    text-decoration: underline;
+}
+.show{
+    display: block;
+}
+/* Modal */
+.modal-content{
+    width: 85% ;
+
+}
+.modal-header{
+    padding: 0 !important;
+}
+.modal-footer{
+    padding: 0 !important;
+}
+.close{
+    color: black !important;
+    margin-right: 0.2rem !important;
+}
+#form-2 i{
+    font-size: 60px;
+}
+.formgroup-sex div{
+    display: flex;
+}    
+input[type=radio]{
+    width: 30px;
+    height: 16px;
+    margin-left: 20px;
+}
+.formgroup-sex div span{
+    font-size: 1.5rem;
+}
+#modal-content-account{
+    width: 70% ;
+    margin-right: auto;
+    margin-left: auto;
+}
+#form-2{
+    background-color: #fff;
+    box-shadow: none;
+}
+#modal-content-account .modal-body{
+    height: 600px;
+}
+.formgroup-sex div{
+    padding-top: 8px;
+    padding-right: 15px;
+}
+.formgroup-sex div span{
+    margin-top: 3px;
+    padding-left: 3px;
+    margin-right: 4px;
+}

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.color_blue{
+    color: rgb(17 45 173);
+}
+.color_pink{
+    color: rgb(177 39 121);
+}
+.header{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;  
+    box-shadow: 0 2px 4px 0 rgb(222, 232, 247);
+}
+
+.favicon{
+    padding:0 120px;
+    justify-content: center;
+}
+.font_icon{
+    margin:3px;
+}
+.font_iconCar{
+    color: rgb(78, 89, 236);
+    font-size: 220%;
+}
+.img_car{
+    max-height: 64px;
+    width: 50%;
+}
+.header_form{
+    display: flex;
+    outline: none;
+    list-style-type: none;
+    justify-content: center;
+    height: 64px;
+    margin-left: 120px;
+    position: relative;
+}
+.header_item{
+    align-self: center;
+    padding: 0 16px;
+}
+.header_item:last-child:hover{
+    color: rgb(65, 90, 255);
+    cursor: pointer;
+}
+.header_item:last-child{
+    padding: 8px;
+}
+.fontsize_item:hover{
+    text-decoration: none;
+}
+.fontsize_item{
+    outline: none;
+    text-decoration: none;
+    font-size: 14px !important;
+    color: black;
+    font-weight: 600 !important;
+}
+.hotline{
+    position: absolute;
+    display: none;
+    width: 240px;
+    height: 90px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    margin-top: 10px;
+}
+.hotline li,
+.account-logout li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 8px;
+    margin-top: 8px;
+    color: black;
+}
+.show{
+    display: block;
+}
+.account-logout{
+    position: absolute;
+    display: none;
+    width: 150px;
+    height: 80px;
+    border-radius: 2px;
+    border: 1px solid #f4f4f4;
+    background-color: #fff;
+    right: auto;
+}
+.header-itemAccount{
+    position: relative;
+}
+.account-logout li:hover{
+    cursor: pointer;
+    color: rgb(65, 90, 255);    
+}
+
+
+
+
+
+

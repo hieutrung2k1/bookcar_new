@@ -1,0 +1,76 @@
+/* footer-contact */
+.footer{
+    height:auto;
+    background-color: #26272b;
+    margin-top: 15px;
+}
+.footer-contact{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 80%;
+    
+}
+.footer-about{
+    width: 30%;
+    color: #595a5b;
+}
+.footer-about p{
+    padding-top: 20px;
+    font-size: 1.4rem;
+    line-height: 25px;
+}
+.footer-gara{
+    width: 35%;
+    padding-left: 50px;
+}
+.footer-list{
+    display: flex;
+    flex-wrap: wrap;
+    color: #595a5b;
+    margin-top: 25px;
+}
+.footer-list p{
+    padding-left: 10px;
+    
+}
+.footer-city{
+    padding-left: 50px;
+    width: 35%;
+}
+.footer-title{
+    color: #fff;
+    margin-top: 25px;
+    font-size: 1.9rem;
+    font-family: "Cardo";
+    font-weight: 700;
+}
+.footer-line{
+    width: 80%;
+    height: 1px;
+    background-color: #9c9c9c;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-icon{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.found{
+    padding-top: 15px;
+    font-size: 1.4rem;
+    color: rgb(177, 177, 177);
+}
+.footer-technology{
+    color: rgb(177, 177, 177);
+    right: 0;
+    position: absolute;
+}
+.footer-technology i{
+    font-size: 20px;
+    padding-left: 8px;
+    padding-top: 15px;
+}
